@@ -1,5 +1,67 @@
+/* Goggle Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;  
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.clock {
+  position: relative;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #051817, #0e3839);
+  background: rgb(251,192,63);
+  background: radial-gradient(circle, rgba(251,192,63,0.8883928571428571) 21%, rgba(252,238,70,0) 96%);
+  height: 150px;
+  width: 360px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 10px;
+  color: rgba(8, 8, 1, 0.555);
+  opacity: 0.9;
+  }
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-shadow: 1px 1px 2px whitesmoke;
+  color: black;
+}
+
+.clock section p {
+  font-size: 3rem;
+}
+
+.clock section small {
+  color: silver;
+  text-shadow: none;
+  color: black;
+  text-shadow: 1px 1px 7px whitesmoke;
+  font-size: 1.5rem;
 }
 
 .App-logo {
@@ -32,7 +94,69 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+footer {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px black;
+  color: whitesmoke;
+}
+
+.welcome {
+  font-weight: 500;
+  font-size: 4rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break:keep-all;
+  color: black;
+  text-shadow: 1px 1px 2px whitesmoke;
+  
+  }
+
+.welcome_foldi_eden{
+  word-break:keep-all;
+  font-weight: 700;
+  font-size: 4rem;
+  color: whitesmoke;
+  text-shadow: 8px -2px 4px black;
+}
+
+.welcome-container{
+  color: rgba(8, 8, 1, 0.555);
+  box-shadow: 0 0 5px 10px;
+  background: rgb(180,58,58);
+  background: linear-gradient(90deg, rgba(180,58,58,0.6082808123249299) 0%, rgba(225,253,29,0) 50%, rgba(134,252,69,0.577468487394958) 100%);
+  border-radius: 15px;
+  border: 2px solid silver;
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  opacity: 1;
+}
+
+.hamarosan_nyitunk_text{
+  font-size: 4rem;
+  color: white;
+  text-shadow: 8px -2px 4px black;
+  margin: 1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.4rem;
+  background: rgb(251,192,63);
+  background: radial-gradient(circle, rgba(251,192,63,0.8883928571428571) 21%, rgba(252,238,70,0) 67%);
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+  opacity: 0.7;
+}
+
+hamarosan_nyitunk_text_container{
+  border: 2px solid silver;
 }
