@@ -42,8 +42,8 @@ function App() {
       <div className='welcome-container'>
         <p className="welcome">Üdvözlünk</p>
         <p className="welcome">a</p>
-        <p className="welcome_foldi_eden">_Földi_Éden_</p>
-        <p className="welcome">Webáruházában!</p>
+        <p className="welcome_foldi_eden">Földi Éden</p>
+        <p className="welcome">Webáruházban!</p>
       </div>
       <Clock
         timerDays={timerDays}
