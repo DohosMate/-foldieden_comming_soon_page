@@ -1,4 +1,4 @@
-Visszaszámlálási idő = 2023.12.31 
+Visszaszámlálási idő = 2025.12.31 
 
 weblap frissítés:
 
